@@ -21,7 +21,7 @@ function currentLine (line) {
   } else {
     var myLine = ""
     for (var n = 0; n < line.length; n++) {
-      if (n < line.length) {
+      if (n < line.length-1) {
       myLine = myLine + (n+1) + ". " + line[n] + ", "
       } else {
         myLine = myLine + (n+1) + ". " + line[n]
