@@ -10,6 +10,6 @@ function nowServing ( ) {
   if (katzDeliLine === []) {
   return 
   } else {
-    return "the line is empty"
+    return "There is nobody waiting to be served!"
   }
 }
