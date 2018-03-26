@@ -22,9 +22,10 @@ function currentLine (line) {
     var i = line.length
     var myLine = ""
     for (i; i > 0 ; i--) {
-      myLine = n + ". " + line[n]
+      var n = 1; n++
+      myLine = n + ". " + line[n-1]
       }
     }
-    return "The line is currently: "
+    return "The line is currently: " + myLine
   }
 }
