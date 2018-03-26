@@ -26,6 +26,6 @@ function currentLine (line) {
       myLine = n + ". " + line[n-1]
       }
     }
-    return "The line is currently: " + myLine
+    return "The line is currently: " + "myLine"
   }
 }
