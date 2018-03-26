@@ -19,13 +19,11 @@ function currentLine (line) {
   if (line.length === 0) {
     return "The line is currently empty."
   } else {
-    var i = line.length
     var myLine = ""
-    for (i; i > 0 ; i--) {
-      var n = 1; n++
-      myLine = n + ". " + line[n-1]
-      }
+    for (var n = 0; n < line.length; n++) {
+      
     }
-    return "The line is currently: " + "myLine"
+  }
+    return "The line is currently: " + myLine
   }
 }
