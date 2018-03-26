@@ -22,8 +22,7 @@ function currentLine (line) {
     var i = line.length
     var myLine = ""
     for (i; i > 0 ; i--) {
-      
     }
-    return "The line is currently : " + 
+    return "The line is currently: " + 
   }
 }
